@@ -16,6 +16,8 @@ import routeUser from './components/user/user.routes';
 import routeAuth from './components/auth/auth.routes';
 import { options } from './config/swaggerOptions';
 
+
+
 //const socketio = require('socket.io');
 //const Sockets  = require('./sockets');
 

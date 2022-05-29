@@ -1,5 +1,8 @@
+import dotenv from 'dotenv'
+dotenv.config({ path: 'src/config/environments/.env' })
+
 export default {
-    PORT: process.env.PORT || 4000,
+    PORT: parseInt(process.env.PORT as string) || 4000,
     DB: {
         MONGO_DB: process.env.MONGO_DB || ''
     },

@@ -1,5 +1,5 @@
 import dotenv from 'dotenv'
-dotenv.config({ path: 'src/config/environments/.env' })
+dotenv.config({ path: '.env' })
 
 export default {
     PORT: parseInt(process.env.PORT as string) || 4000,
